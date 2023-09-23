@@ -1,0 +1,36 @@
+# Git 101
+
+#### To initialize a new repo for the first time:
+Create a config file using
+git config --global user.name "Ryan Jeon"
+git config --global user.email "rjeon94@gmail.com"
+
+Its hidden, so you can use vim ~/.gitconfig to see Its
+
+Then run:
+git init
+
+### After intializing
+Workflow:
+1. Working directory 
+2. Add to staging/index
+3. Permanent repository 
+
+Use git status to check your status
+Use git log to find your history with your commit messages
+git diff will show you the modifications 
+
+First, make sure your computer and Github can access each other, using
+ cat /Users/ryanjeon/.ssh/id_rsa.pub
+
+Copy this key into settings -> SSH key
+
+Then, run 
+git remote add origin git@github.com:ryanleejeon/python-programming.git
+
+
+1. Git add python.py (working directory)
+2. git commit -m "message" (add to stage)
+3. git push -u origin main (push)
+
+
