@@ -20,3 +20,7 @@ for i in words:
         counter += 1
 
     print(counter) 
+
+##### mistakes:
+# 1. its += not, =+. Remember, plus/negative FIRST
+# 2. You can print len(words) to get the number of words 
